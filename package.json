@@ -1,0 +1,23 @@
+{
+  "name": "my-first-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf build && mkdir build && cp index.html build/index.html -f",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fathym-opensourceware/my-first-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fathym-opensourceware/my-first-application/issues"
+  },
+  "homepage": "https://github.com/fathym-opensourceware/my-first-application#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
